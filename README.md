@@ -37,11 +37,23 @@ c) Add Retail Location Index row.
 
 
 
-Customer Info : 
 
+Class Daigram. 
+Classes -> Customer , RetailAgent
 
+Global Variables : 
+  list<Customers>
+Global Functions : 
+  GetUpComingCustomers(int days)
+  InsertCustomerIntoDB()
+  DecompileCustomers()
+  PopulateCustomers()
+  
+  
+Class Customer : 
+  Methods : Constructor , Decompile
 
-
+Class RetailAgent (singleton class - to be hardcoded for each customer) : 
 
 
 
